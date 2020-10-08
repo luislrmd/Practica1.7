@@ -1,0 +1,31 @@
+h1{
+    background-color:rgba(255, 137, 1, 0.747);
+  
+   
+   
+}
+body {
+    background-color: rgb(255, 240, 201);
+
+}
+.form-register {
+    width: 550px;
+    background: #FFA420;
+    padding: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 9px;
+    
+    
+    color:  #FFDB58;
+    box-shadow: 10px 23px 37px pink;
+
+}
+ .Titulo{
+     font-family:  'Book Antiqua' ;
+     color: black;
+     font-size: 200%;
+ }   
+
+ 
+

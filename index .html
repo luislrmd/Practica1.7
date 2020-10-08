@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    
+    <title>Practica1.5</title>
+</head>
+<body>
+    
+    <CEnter><h1>Formulario</h1></CEnter> 
+    <hr>
+    <section style="color: black;" class="form-register">
+    <form action="#">
+        <fieldset>
+            <legend class="Titulo">Datos del estudiante</legend> 
+            <div>
+                <label for="usuario">Nombre:</label>
+                <input id="usuario" type="text" name="usuario">
+            </div><br>
+
+            <div>
+                <label for="email">Direccion email:</label>
+                <input id="email" type="text" name="email">
+               
+            </div><br>
+
+            
+            <div>
+                <label for="Apellido">Apellido Paterno:</label>
+                <input id="Apellido" type="text" name="Apellido">
+               
+            </div><br>
+
+            <div>
+                <label for="Apellido">Apellido Materno:</label>
+                <input id="Apellido" type="text" name="Apellido">
+                
+            </div><br>
+        
+            <div>
+                <label for="ciudad">Ciudad:</label>
+                <select name="ciudad">
+                    <option value="TE">Puebla</option>
+                    <option value="VA">Oaxaca</option>
+                    <option value="BA">Tehuacan</option>
+                    <option value="M">Mexico</option>
+                    <option value="" selected="selected">Selecciona tu ciudad...</option>
+                </select>
+            </div><br>
+            
+            <div><legend class="Titulo">Deporte a escoger:</legend> <br>
+                <input type="checkbox" id="deportes" name="aficiones" value="deportes">
+                <label for="deportes">Futbol</label><br>
+                <input type="checkbox" id="coches" name="aficiones" value="coches">
+                <label for="coches">Basquetbol</label><br>
+                <input type="checkbox" id="musica" name="aficiones" value="musica">
+                <label for="musica">voleibol</label><br>
+            </div><br>
+            <div>  <legend class="Titulo">Sexo:</legend>  <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Hombre</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">Mujer</label><br>
+            </div><br>
+                <div>
+                    <label class="Titulo" for="ciudad">Especialidad:</label>
+                    <select name="ciudad">
+                        <option value="TE">Electronica</option>
+                        <option value="VA">Programacion</option>
+                        <option value="BA">Logistica</option>
+                        <option value="M">Contabilidad</option>
+                        <option value="M">Alimentod</option>
+                        <option value="" selected="selected">Selecciona tu Especialidad...</option>
+                    </select>
+                </div><br>
+                <div> <br>
+                    <input type="submit" name="submit" value="Enviar informacion">
+                    <input type="reset" name="reset" value="Limpiar formulario">
+                </div><br>
+
+          
+        </section>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
